@@ -1,0 +1,43 @@
+p::first-letter{
+    color: rgba(196, 7, 7, 0.521);
+    font-size: 2rem;
+}
+p::first-line{
+    background-color: rgb(207, 193, 6);
+}
+p{
+    background-color: blanchedalmond;
+}
+p::selection{
+    background-color: crimson;
+    color: white;
+}
+li::marker{
+    content: "😻";
+}
+h1::after{
+    content: "🌉";
+}
+h1::before{
+    content: "🌄";
+}
+a:link{
+    color: deeppink;
+}
+a:hover{
+    color: rgb(50, 220, 20);
+    text-decoration: none;
+}
+a:visited{
+    color: darkblue;
+}
+a:active{
+    color: maroon;
+    border-radius: 20px;
+    text-decoration:double;
+    background-color: black;
+}
+iframe{
+    width:500px;
+    height: 500px;
+}
